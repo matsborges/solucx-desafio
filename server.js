@@ -1,6 +1,6 @@
 const express = require ('express')
-const serveStatic = require('serve-static')
-const path = require('path')
+var path = require('path')
+var serveStatic = require('serve-static')
 
 const app = express()
 
